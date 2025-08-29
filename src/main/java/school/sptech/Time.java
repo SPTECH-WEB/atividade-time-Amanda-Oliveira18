@@ -33,8 +33,8 @@ public class Time {
         } else{
             System.out.println("O time " + nome + " e " + dois.nome + " têm o mesmo aproveitamento.");
         }
-
     }
+
     public void exibirInformacoes(){
         System.out.println("Time: " + nome);
         System.out.println("Vitórias: " + vitorias);
@@ -43,8 +43,7 @@ public class Time {
         System.out.println("\nPontos" + getPontos());
         System.out.println("Total de partidas: " + getTotalPartidas());
         System.out.println("Aproveitamento: " + getAproveitamento() + "%");
-        System.out.println("\n --- \n");
+        System.out.println("\n--- \n");
 
     }
-
 }
